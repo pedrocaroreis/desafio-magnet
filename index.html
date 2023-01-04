@@ -11,25 +11,45 @@
   - You CANNOT remove template tags (variables between {}). The test may change the content of these.
 -->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magnet Frontend Test</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" />
-    <script src="site.js"></script>
-  </head>
-  <body>
-    <img src="img/logo.png">
-    Dogos
-    {navlinks}
-    <h1>{title}</h1>
-    {content1}
-    <a href="#"><img src="img/paw.png">Learn more</a>
-    {content2}
-    <a href="#"><img src="img/paw.png">Learn more</a>
-    {content3}
-    <a href="#"><img src="img/paw.png">Learn more</a>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Magnet Frontend Test</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="style.css"
+			rel="stylesheet"
+		/>
+		<script src="site.js"></script>
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body>
+		<img src="img/logo.png" />
+		Dogos {navlinks}
+		<h1>{title}</h1>
+		<div class="flex m-2 p-2 text-center justify-center bg-gray-200">
+			<div class="w-80 h-80 m-4 p-4">
+				{content1}
+				<a href="#"><img src="img/paw.png" />Learn more</a>
+			</div>
+			<div class="w-80 h-80 m-4 p-4">
+				{content2}
+				<a href="#"><img src="img/paw.png" />Learn more</a>
+			</div>
+			<div class="w-80 h-80 m-4 p-4">
+				{content3}
+				<a href="#"><img src="img/paw.png" />Learn more</a>
+			</div>
+		</div>
+	</body>
 </html>
