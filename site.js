@@ -47,7 +47,7 @@ content.navlinks = `
   </ul>`;
 
 // Emulate a mini template engine:
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   let html = document.body.innerHTML;
   Object.entries(content).forEach(([tag, data]) => {
     html = html.replaceAll(`{${tag}}`, data);
