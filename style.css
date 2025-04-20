@@ -36,6 +36,7 @@ html {
   line-height: 1.44;
 }
 
+<<<<<<< HEAD
 body {
   background-color: var(--gray-2);
 }
@@ -55,3 +56,28 @@ header {
 .links {
   display: flex;
 }
+=======
+header {
+	padding: 10px;
+	background-color: var(--secondary);
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	display: flex;
+	padding: 0 20px;
+	width: 200px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: orangered;
+}
+
+.nav-links {
+	padding: 0 20px;
+	width: 200px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+>>>>>>> 6d29f49ed69095700db8c405f8c03c772ed26412
